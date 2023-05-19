@@ -1,0 +1,6 @@
+INFO:httpx:HTTP Request: POST http://testserver/keywords "HTTP/1.1 200 OK"
+INFO:root:Test case: <teamcity.unittestpy.TeamcityTestResult run=1 errors=0 failures=0> - PASSED
+INFO:httpx:HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+INFO:root:Test case: <teamcity.unittestpy.TeamcityTestResult run=2 errors=0 failures=0> - PASSED
+INFO:httpx:HTTP Request: POST http://testserver/sentiment "HTTP/1.1 200 OK"
+INFO:root:Test case: <teamcity.unittestpy.TeamcityTestResult run=3 errors=0 failures=0> - PASSED

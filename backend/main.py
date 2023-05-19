@@ -52,6 +52,9 @@ def keep_words_only(sentence):
 
 
 #~~~~~~~~~~~~~~~~~ FastAPI methods ~~~~~~~~~~~~~~~~~~~~
+@app.get("/")
+def land_page():
+    return {"message" : "Welcome to Sentiment : your santiment analyzer API"}
 
 # This method will analyze the sentiment of a sentence to negative/neutral/possitive.
 @app.post("/sentiment")
