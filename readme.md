@@ -1,4 +1,3 @@
-This project is still in progress...
 *** 
 
 # Sentiment Analyzer 🦾️
@@ -9,18 +8,24 @@ This document will provide you with a brief overview of the application and its 
 as well as instructions for installation and usage.
 
 ***
+
 ## Getting Started
 ***
 ### Overviwe: 
+
 The apps porpuse is to analyze your text by analyzing its sentiment , key words and summarizeation tool . 
 
 This app is desinged in microservices type of architecture. 
 
-* micro-service 1 --> Backend : fastAPI (dockerized)
+* micro-service 1 --> Backend : fastAPI + Pydantic + ML Models (Docker)
 
-* micro-service 2 -->Frontend : streamlit (dockerized)
+* micro-service 2 --> Frontend : streamlit + requests (Docker)
 
-* Still in progress...
+* micro-servise 3 --> in progress ...
+
+![img_1.png](img_1.png)
+
+
 ***
 
 
@@ -29,6 +34,11 @@ This app is desinged in microservices type of architecture.
 First, clone the repo : 
 ```
 git clone https://github.com/EASS-HIT-PART-A-2022-CLASS-III/sentiment-analyzer.git
+```
+Navigate to main folder and run :
+
+```
+docker-compose up
 ```
 To run backend , navigate to backend folder and run :
 

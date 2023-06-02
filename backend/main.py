@@ -83,3 +83,12 @@ def extract_keywords(request: KeywordExtractionRequest):
     rake.extract_keywords_from_text(request.text)
     keywords = rake.get_ranked_phrases()
     return KeywordExtractionResponse(keywords=keywords)
+
+#~~~~~~~~~~~~~~~~~ Run the Proj - for testing ~~~~~~~~~~~~~~~~~~~~
+
+#to run build + run docker :
+#docker build -t my_docker .
+#docker run -p 8000:8000 -it my_docker
+
+# to run only uvicorn and fastAPI (test porpuse) :
+#uvicorn main:app --host 0.0.0.0 --port 8000
