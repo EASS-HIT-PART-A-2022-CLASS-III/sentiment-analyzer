@@ -7,6 +7,8 @@
 This document will provide you with a brief overview of the application and its functionalities,
 as well as instructions for installation and usage.
 
+- DEMO Video : https://youtu.be/IEYMgwdf7-U
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IEYMgwdf7-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ***
 
 ## Getting Started
@@ -17,11 +19,14 @@ The apps porpuse is to analyze your text by analyzing its sentiment , key words 
 
 This app is desinged in microservices type of architecture. 
 
-* micro-service 1 --> Backend : fastAPI + Pydantic + ML Models (Docker)
+*  Backend : 'fastAPI' + 'Pydantic' + ML Models (Dockerized)
+* QA and Testing : 
 
-* micro-service 2 --> Frontend : streamlit + requests (Docker)
+-Tests : 'unittest' and 'fastapi.testclient'
 
-* micro-servise 3 --> in progress ...
+-Logs : 'logging' 
+*  Frontend : 'streamlit' + 'requests' (Dockerized)
+
 
 ![img_1.png](img_1.png)
 

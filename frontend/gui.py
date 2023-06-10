@@ -11,7 +11,7 @@ options = ["sentiment", "summarize", "keywords"]
 
 st.set_page_config(
     page_title="Sentiment Analyzer App",
-    page_icon="🦾️",
+    page_icon="🦾",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
