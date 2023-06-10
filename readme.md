@@ -8,7 +8,6 @@ This document will provide you with a brief overview of the application and its 
 as well as instructions for installation and usage.
 
 - DEMO Video : https://youtu.be/IEYMgwdf7-U
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IEYMgwdf7-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ***
 
 ## Getting Started
